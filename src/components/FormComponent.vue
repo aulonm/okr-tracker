@@ -118,6 +118,11 @@ export default {
       required: false,
       default: '',
     },
+    classNames: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
 
   data: () => ({

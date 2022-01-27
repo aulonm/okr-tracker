@@ -149,13 +149,13 @@ body.using-mouse :focus {
 }
 
 :root {
-  --color-danger: #ff8174;
-  --color-success: #43f8b6;
-  --color-warning: #f8c66b;
-  --color-black: #2e2e2e;
+  --color-danger: #cd465e;
+  --color-success: #e6f5f0;
+  --color-warning: #eba74a;
+  --color-black: #333;
   --color-white: #ffffff;
-  --color-gray: #989898;
-  --color-light-gray: #f6f6f6;
+  --color-gray: #595959;
+  --color-light-gray: #e6e6e6;
   --color-blue: #6ee9ff;
   --color-blue-light: #b3f5ff;
   --color-blue-light-2: #b2d2d8;
@@ -165,9 +165,9 @@ body.using-mouse :focus {
   --color-yellow: #f8c66b;
   --color-yellow-dark: #ba944fff;
   --color-yellow-light: #d1bfae;
-  --color-red: #ff8174;
-  --color-red-dark: #5b0800;
-  --color-red-light: #ff988e;
+  --color-red: #f6a79e;
+  --color-red-dark: #cd565e;
+  --color-red-light: #faedef;
   --color-beige: #f8f0dc;
   --color-beige-dark: #d0bfae;
 
@@ -211,6 +211,26 @@ body.using-mouse :focus {
   --color-grey-400-rgb: #{hexToRGB(#939399)};
   --color-grey-500-rgb: #{hexToRGB(#797980)};
   --color-grey-800-rgb: #{hexToRGB(#242433)};
+
+  // OBOS colors
+
+  --color-obos-blue: #0047ba;
+  --color-obos-green: #008761;
+  --color-obos-blue-sec: #002169;
+  --color-obos-green-sec: #00524c;
+  --color-obos-blue-medium: #00329f;
+}
+
+[data-theme='obos'] {
+  --color-text: var(--color-black);
+  --color-text-secondary: var(--color-white);
+  --color-primary: var(--color-obos-blue-sec);
+  --color-secondary: var(--color-obos-blue);
+  --color-primary-dark: var(--color-obos-blue-sec);
+  --color-secondary-light: var(--color-obos-blue);
+  --color-tertiary: var(--color-obos-blue-sec);
+  --color-progress-background: var(--color-obos-blue-medium);
+  --color-hover: var(--color-obos-blue-sec);
 }
 
 [data-theme='green'] {
