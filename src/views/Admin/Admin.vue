@@ -4,7 +4,6 @@
       <div class="grid">
         <admin-items class="admin-items"></admin-items>
         <div class="admin-users">
-          <admin-access-requests v-if="user.superAdmin" />
           <admin-users />
         </div>
       </div>
@@ -19,7 +18,6 @@ export default {
   name: 'Admin',
 
   components: {
-    AdminAccessRequests: () => import('./components/AdminAccessRequests.vue'),
     AdminUsers: () => import('./components/AdminUsers.vue'),
     AdminItems: () => import('./components/AdminItems.vue'),
   },

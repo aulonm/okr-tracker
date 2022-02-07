@@ -182,7 +182,6 @@ If you want to deploy to production or staging, you need to create multiple coll
 - organizations
 - periods
 - products
-- requestAccess
 - slugs
 - users
 - domainWhitelist (optional)

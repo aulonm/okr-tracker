@@ -25,4 +25,6 @@ export default {
       department: {},
     },
   },
+  superAdmin: false,
+  admin: []
 };
